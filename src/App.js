@@ -48,6 +48,7 @@ function App() {
   </div>
       </Link> 
       <Switch>
+      <Route exact={true} path="/AbilityShowcase" component={Home}/>
       <Route exact={true} path="/" component={Home}/>
       <Route exact={true} path="/Dk" component={Dk}></Route>
       <Route exact={true} path="/Dh" component={Dh}></Route>
